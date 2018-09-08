@@ -98,5 +98,27 @@ public class WordCounter {
         return filepath;
     }
 
+    public static int isEmptyLine(File file) throws IOException {
+        int count_EmptyLine = 0;
+        if(!file.exists())
+        {
+            count_EmptyLine = -1;
+        }
+        else
+        {
+
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+            String s = null;
+            while((s=br.readLine())!=null)
+            {
+                if(s.trim().length()<=1){
+                    count_EmptyLine++;
+                }
+            }
+
+        }
+        return count_EmptyLine;
+    }
 
 }
