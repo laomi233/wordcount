@@ -43,6 +43,32 @@ public class WordCounter {
         return count_Row;
     }
 
+    public static int word_cal(File file) throws IOException {
+        int count_Word = 0;
+        if(!file.exists())
+        {
+            count_Word = -1;
+        }
+        else
+        {
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+
+            String s = null;
+            while((s=br.readLine())!=null)
+            {
+                String reg = "\\d+.\\d+|\\w+";
+                Matcher mat = Pattern.compile(reg).matcher(s);
+                while(mat.find())
+                {
+                    count_Word++;
+                }
+
+            }
+        }
+        return count_Word;
+    }
+
 
 
 
