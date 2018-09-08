@@ -69,7 +69,34 @@ public class WordCounter {
         return count_Word;
     }
 
+    private static List<String> filepath;
 
+    public static List<String> ScanFileInRecursion(File file)
+    {
+
+        if(!file.isDirectory())
+        {
+            System.out.println("非合法目录文件夹！请重新输入！");
+        }
+        else
+        {
+            File[] files = file.listFiles();
+            for(int i=0;i<files.length;i++)
+            {
+                if(files[i].isDirectory())
+                {
+                    filepath.add(files[i].getAbsolutePath());
+                    ScanFileInRecursion(files[i]);
+                }
+                else
+                {
+                    filepath.add(files[i].getAbsolutePath());
+                }
+            }
+
+        }
+        return filepath;
+    }
 
 
 }
