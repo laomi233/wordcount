@@ -1,7 +1,13 @@
 package cc.com.TCheung;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.SimpleFileVisitor;
+import java.util.Collection;
 import java.util.List;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -122,9 +128,13 @@ public class WordCounter {
     }
 
     public static void main(String[] args) throws IOException {
-        File file = new File("F:\\test.txt");
-      //  int res = isCodeLine(file);
-       // System.out.println(res);
+        while (true) {
+            Scanner in = new Scanner(System.in);
+            String a = in.nextLine();
+            // String b = in.next();
+            getRelateFiles(a);
+        }
+
     }
     public static int isCodeLine(File file) throws IOException {
         int count_CodeLine = 0;
@@ -219,4 +229,29 @@ public class WordCounter {
         //System.out.println(count_CodeLine);
         return count_CodeLine;
         }
+
+        public static int isAnnotationLine(File file) throws IOException {
+            int count_Annotation = 0;
+            if(!file.exists())
+            {
+                count_Annotation = -1;
+            }
+            else
+            {
+                count_Annotation = Rows_number(file) - isEmptyLine(file) - isCodeLine(file);
+            }
+            return count_Annotation;
+        }
+
+        public static void getRelateFiles(String filepath) throws IOException {
+            FileFinder finder = new FileFinder(filepath);
+            Files.walkFileTree(Paths.get("F:\\wordcount"),finder);
+            Collection<Path> matchedFiles = finder.getMatchedPaths();
+            for(Path path : matchedFiles)
+            {
+                System.out.println(path.getFileName());
+            }
+        }
+
+
 }

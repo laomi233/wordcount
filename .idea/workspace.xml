@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="">
+    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="Feat(FileFinder): Add class that">
+      <change afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/out/production/wordcount/cc/com/TCheung/BasicCount.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,13 +19,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WordCounter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordCounter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="153" column="44" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
+            <state relative-caret-position="289">
+              <caret line="239" column="13" lean-forward="true" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileFinder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#413#419#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
+                <element signature="e#1159#1160#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,6 +86,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../wordcount" />
   </component>
@@ -77,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/cc/com/TCheung/BasicCount.java" />
         <option value="$PROJECT_DIR$/src/cc/com/TCheung/OptimizeCounter.java" />
         <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java" />
       </list>
     </option>
   </component>
@@ -90,7 +115,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
+    <option name="x" value="951" />
     <option name="width" value="977" />
     <option name="height" value="1035" />
   </component>
@@ -137,6 +162,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,7 +241,7 @@
       <option name="presentableId" value="Default" />
       <updated>1536327876315</updated>
       <workItem from="1536327880476" duration="4806000" />
-      <workItem from="1536373000468" duration="14617000" />
+      <workItem from="1536373000468" duration="20086000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1536379973880</created>
@@ -259,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536380574094</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feat(isCodeLine): Add function isCodeLine&#10;&#10;- function of calculating the sum of code lines in a file&#10;&#10;Fix(isCodeLine): Fix the bug of isCodeLine&#10;&#10;- Fix the bug that delete &quot;\n&quot; when deleting the annotation">
+      <created>1536392807764</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536392807764</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19423000" />
+    <option name="totallyTimeSpent" value="24892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
@@ -275,23 +308,23 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50035286" side_tool="true" weight="0.38426626" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37821484" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964714" visible="true" weight="0.38426626" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956952" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12729844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33521524" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939487" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39334342" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -300,34 +333,35 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37861273" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38284838" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.12729844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39969373" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939487" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3338438" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.33282906" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32956952" />
+      <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,11 +377,12 @@
     <MESSAGE value="Feat: Add function word_cal&#10;&#10;- Function of calculating the sum of words in a file" />
     <MESSAGE value="Feat: Add function ScanFileInRecursion&#10;&#10;- Function of putting filepath in a list by recursion" />
     <MESSAGE value="Feat(isEmptyLine): Add function isEmptyLine&#10;&#10;- Function of calculating the sum of empty lines in a file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat(isEmptyLine): Add function isEmptyLine&#10;&#10;- Function of calculating the sum of empty lines in a file" />
+    <MESSAGE value="Feat(isCodeLine): Add function isCodeLine&#10;&#10;- function of calculating the sum of code lines in a file&#10;&#10;Fix(isCodeLine): Fix the bug of isCodeLine&#10;&#10;- Fix the bug that delete &quot;\n&quot; when deleting the annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat(isCodeLine): Add function isCodeLine&#10;&#10;- function of calculating the sum of code lines in a file&#10;&#10;Fix(isCodeLine): Fix the bug of isCodeLine&#10;&#10;- Fix the bug that delete &quot;\n&quot; when deleting the annotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -404,10 +439,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="153" column="44" selection-start-line="153" selection-start-column="44" selection-end-line="153" selection-end-column="44" />
+        <state relative-caret-position="289">
+          <caret line="239" column="13" lean-forward="true" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#413#419#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
           </folding>
         </state>
       </provider>
