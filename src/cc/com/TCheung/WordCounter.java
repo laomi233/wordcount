@@ -121,4 +121,102 @@ public class WordCounter {
         return count_EmptyLine;
     }
 
+    public static void main(String[] args) throws IOException {
+        File file = new File("F:\\test.txt");
+      //  int res = isCodeLine(file);
+       // System.out.println(res);
+    }
+    public static int isCodeLine(File file) throws IOException {
+        int count_CodeLine = 0;
+        if(!file.exists())
+        {
+            count_CodeLine = -1;
+        }
+        else {
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+            String s = null;
+            Pattern p = Pattern.compile("\\/\\/[^\\n]*|\\/\\*([^\\*^\\/]*|[\\*^\\/*]*|[^\\**\\/]*)*\\*+\\/");
+            String tmp = null;
+            StringBuffer sb = new StringBuffer();
+            String target = null;
+            while ((s = br.readLine()) != null) {
+                s = s.trim();
+                int flag = 0;
+                int pos = 0;
+                for (int i = 1; i < s.length(); i++) {
+                    if (s.charAt(i) == '/' && (s.charAt(i + 1) == '/' || s.charAt(i + 1) == '*')) {
+                        pos = i;
+
+                        if(s.charAt(i)=='/'&&s.charAt(i+1)=='/')
+                        {
+                            sb.append(s,0,i);
+                            sb.append("\n");
+                        }
+                        else if(s.charAt(i+1)=='*'&& !s.substring(i).contains("*/"))
+                        {
+                            String t = (String) s.subSequence(0, i);
+                            sb.append(t);
+                            sb.append("\n");
+                            sb.append(s.substring(i));
+                            sb.append("\n");
+                        }
+                        else if(s.charAt(i+1)=='*'&& s.substring(i).contains("*/"))
+                        {
+                            Matcher m = p.matcher(s);
+                            tmp = m.replaceAll("");
+                            sb.append(tmp);
+                            sb.append("\n");
+                            flag = 1;
+                            break;
+                        }
+                        flag = 1;
+
+                    }
+
+                }
+                if (flag == 0) {
+                    if (s.length() > 1 && s.substring(0, 1).equals("*/")) {
+                        //  System.out.println(s);
+
+                        sb.append("*/");
+                        sb.append("\n");
+                        sb.append(s.substring(2));
+                        sb.append("\n");
+                    } else {
+                        sb.append(s);
+                        sb.append("\n");
+//                Matcher mat = p.matcher(s);
+//                target = mat.replaceAll("");
+//                if(target.trim().length()>1)
+//                {
+//                    System.out.println(target);
+//                    count_CodeLine++;
+//                }
+                    }
+
+                }
+            }
+            br.close();
+            target = sb.toString();
+           // System.out.println(target);
+            Matcher mat = p.matcher(target);
+            String res = null;
+            res = mat.replaceAll("");
+            //System.out.println(res);
+            BufferedReader context = new BufferedReader(new StringReader(res));
+            while((tmp=context.readLine())!=null)
+            {
+
+                if(tmp.trim().length()>1)
+                {
+                   // System.out.println(tmp);
+                    count_CodeLine++;
+                }
+            }
+
+        }
+        //System.out.println(count_CodeLine);
+        return count_CodeLine;
+        }
 }
