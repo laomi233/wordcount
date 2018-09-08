@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../wordcount/out/production/wordcount" />
+    <output-test url="file://$MODULE_DIR$/../wordcount/out/test/wordcount" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../wordcount">
+      <sourceFolder url="file://$MODULE_DIR$/../wordcount/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
