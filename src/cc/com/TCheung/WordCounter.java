@@ -23,6 +23,27 @@ public class WordCounter {
 
     }
 
+    public static int Rows_number(File file) throws IOException {
+        int count_Row = 0;
+        if(!file.exists())
+        {
+            count_Row = -1;
+        }
+        else
+        {
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+
+            String s = null;
+            while((s=br.readLine())!=null)
+            {
+                count_Row++;
+            }
+        }
+        return count_Row;
+    }
+
+
 
 
 }
