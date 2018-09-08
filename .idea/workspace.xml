@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="Feature: add function  CharacterSum &#10;&#10;- function of calculating the sum of character in a file&#10;&#10;Feature: add function Rows_number&#10;&#10;- function of calculating the sum of lines in a file&#10;&#10;Feature: add function &#10;Feature: add function of calculating the sum of empty lines in a file">
-      <change afterPath="$PROJECT_DIR$/../wordcount/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordcount/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordcount/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordcount/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/../wordcount/out/production/wordcount/cc/com/TCheung/BasicCount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../wordcount/wordcount.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +18,8 @@
       <file leaf-file-name="WordCounter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1296">
-              <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,12 +184,20 @@
       <option name="presentableId" value="Default" />
       <updated>1536327876315</updated>
       <workItem from="1536327880476" duration="4806000" />
-      <workItem from="1536373000468" duration="5186000" />
+      <workItem from="1536373000468" duration="5596000" />
     </task>
+    <task id="LOCAL-00001" summary="git init">
+      <created>1536379973880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536379973880</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9992000" />
+    <option name="totallyTimeSpent" value="10402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
@@ -237,6 +239,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git init" />
+    <option name="LAST_COMMIT_MESSAGE" value="git init" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -270,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+        <state relative-caret-position="252">
+          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
