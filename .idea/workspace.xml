@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="wordcount:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="Feat(FileFinder): Add class that">
-      <change afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java" afterDir="false" />
+    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="Feat(FileFinder): Add class FileFinder&#10;&#10;- Use Files.walkFileTree in java.nio.file to search files with  regex&#10;&#10;Feat(getRelateFiles): Add function that get files that with wildcard">
+      <change beforePath="$PROJECT_DIR$/../wordcount/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/FileFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/WordCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wordcount/wordcount.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/wordcount.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,12 +25,12 @@
     <SUITE FILE_PATH="coverage/wordcount$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1536392362687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="WordCounter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="WordCounter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="239" column="13" lean-forward="true" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+            <state relative-caret-position="127">
+              <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,48 +38,105 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileFinder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java">
+      <file leaf-file-name="Backup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/Backup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="306">
+              <caret line="18" column="2" selection-end-line="270" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordCounter.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../wordcount/out/artifacts/wordcount_jar/cc/com/TCheung/controller/controller/WordCounter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
               <folding>
+                <element signature="e#0#7339#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#413#419#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1107#1108#0" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringBuffer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/StringBuffer.java">
+      <file leaf-file-name="Files.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/nio/file/Files.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5580">
-              <caret line="349" selection-start-line="349" selection-end-line="349" />
+            <state relative-caret-position="145">
+              <caret line="2669" selection-start-line="2669" selection-end-line="2669" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractStringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/AbstractStringBuilder.java">
+      <file leaf-file-name="Objects.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/util/Objects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9108">
-              <caret line="538" selection-start-line="538" selection-end-line="538" />
+            <state relative-caret-position="152">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <file leaf-file-name="NewJFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/UI/NewJFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34038">
-              <caret line="1962" selection-start-line="1962" selection-end-line="1962" />
+            <state relative-caret-position="256">
+              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#12238#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#633#663#0" expanded="true" />
+                <element signature="e#668#757#0" expanded="true" />
+                <element signature="e#9960#10047#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../wordcount/src/META-INF/MANIFEST.MF">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWork.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/Main/MainWork.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4581#4582#0" expanded="true" />
+                <element signature="e#4653#4654#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileFinder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/FileFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-422">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#456#462#0" expanded="true" />
+                <element signature="e#498#504#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1583#1584#0" expanded="true" />
+                <element signature="e#1618#1619#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,6 +153,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>main</find>
+      <find>Jte</find>
+      <find>JButton.a</find>
+      <find>文件不存在</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,8 +167,20 @@
         <option value="$PROJECT_DIR$/src/BasicCount.java" />
         <option value="$PROJECT_DIR$/src/cc/com/TCheung/BasicCount.java" />
         <option value="$PROJECT_DIR$/src/cc/com/TCheung/OptimizeCounter.java" />
-        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" />
-        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java" />
+        <option value="$PROJECT_DIR$/src/cc/com/TCheung/WordCounter.java" />
+        <option value="$PROJECT_DIR$/src/cc/com/TCheung/FileFinder.java" />
+        <option value="$PROJECT_DIR$/src/cc/com/TCheung/controller/WordCounter.java" />
+        <option value="$PROJECT_DIR$/src/cc/com/TCheung/view/WindowsFrame.java" />
+        <option value="$PROJECT_DIR$/src/cc/com/TCheung/view/Fram.form" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/Fram.form" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/window.form" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/window.java" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/UI/Frame.java" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/UI/NewJFrame.java" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/FileFinder.java" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/Main/MainWork.java" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/Backup.java" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java" />
       </list>
     </option>
   </component>
@@ -115,9 +194,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="977" />
-    <option name="height" value="1035" />
+    <option name="x" value="943" />
+    <option name="width" value="978" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,9 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,27 +220,64 @@
               <item name="wordcount" type="b2602c69:ProjectViewProjectNode" />
               <item name="wordcount" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TCheung" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordcount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordcount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordcount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordcount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wordcount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordcount" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="cc.com.TCheung.controller.controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\wordcount\src\cc\com\TCheung" />
       <recent name="F:\wordcount\src" />
@@ -182,11 +295,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="cc.com.TCheung.WordCounter" />
+  <component name="RunManager" selected="Application.Unnamed (1)">
+    <configuration name="MainWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cc.com.TCheung.controller.Main.MainWork" />
       <module name="wordcount" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cc.com.TCheung.controller.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Unnamed (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cc.com.TCheung.controller.Main.MainWork" />
+      <module name="wordcount" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cc.com.TCheung.controller.UI.NewJFrame" />
+      <module name="wordcount" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cc.com.TCheung.controller.controller.WordCounter" />
+      <module name="wordcount" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../wordcount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cc.com.TCheung.controller.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -229,6 +369,18 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Unnamed (1)" />
+      <item itemvalue="Application.MainWork" />
+      <item itemvalue="Application.WordCounter" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WordCounter" />
+        <item itemvalue="Application.MainWork" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -241,7 +393,8 @@
       <option name="presentableId" value="Default" />
       <updated>1536327876315</updated>
       <workItem from="1536327880476" duration="4806000" />
-      <workItem from="1536373000468" duration="20086000" />
+      <workItem from="1536373000468" duration="28355000" />
+      <workItem from="1536454341508" duration="29843000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1536379973880</created>
@@ -292,85 +445,121 @@
       <option name="project" value="LOCAL" />
       <updated>1536392807764</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Feat(FileFinder): Add class FileFinder&#10;&#10;- Use Files.walkFileTree in java.nio.file to search files with  regex&#10;&#10;Feat(getRelateFiles): Add function that get files that with wildcard">
+      <created>1536403766322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1536403766322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24892000" />
+    <option name="totallyTimeSpent" value="63004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.33282906" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50035286" side_tool="true" weight="0.38426626" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964714" visible="true" weight="0.38426626" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956952" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291536" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964714" weight="0.4106583" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33521524" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2403496" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39334342" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33736762" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32956952" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38284838" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32956952" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964714" weight="0.2708018" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12729844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23288637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939487" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50035286" side_tool="true" weight="0.38426626" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.33282906" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32956952" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24205749" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../wordcount" />
+    </ignored-roots>
     <MESSAGE value="git init" />
     <MESSAGE value="feat(CharacterSum): add function  CharacterSum&#10;&#10;- function of calculating the sum of character in a file" />
     <MESSAGE value="feat(Rows_number): add function  Rows_number&#10;&#10;- function of calculating the sum of lines in a file" />
@@ -378,48 +567,69 @@
     <MESSAGE value="Feat: Add function ScanFileInRecursion&#10;&#10;- Function of putting filepath in a list by recursion" />
     <MESSAGE value="Feat(isEmptyLine): Add function isEmptyLine&#10;&#10;- Function of calculating the sum of empty lines in a file" />
     <MESSAGE value="Feat(isCodeLine): Add function isCodeLine&#10;&#10;- function of calculating the sum of code lines in a file&#10;&#10;Fix(isCodeLine): Fix the bug of isCodeLine&#10;&#10;- Fix the bug that delete &quot;\n&quot; when deleting the annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat(isCodeLine): Add function isCodeLine&#10;&#10;- function of calculating the sum of code lines in a file&#10;&#10;Fix(isCodeLine): Fix the bug of isCodeLine&#10;&#10;- Fix the bug that delete &quot;\n&quot; when deleting the annotation" />
+    <MESSAGE value="Feat(FileFinder): Add class FileFinder&#10;&#10;- Use Files.walkFileTree in java.nio.file to search files with  regex&#10;&#10;Feat(getRelateFiles): Add function that get files that with wildcard" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat(FileFinder): Add class FileFinder&#10;&#10;- Use Files.walkFileTree in java.nio.file to search files with  regex&#10;&#10;Feat(getRelateFiles): Add function that get files that with wildcard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java">
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/FileFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#462#0" expanded="true" />
+            <element signature="e#498#504#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/WindowsFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/OptimizeCounter.java">
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/Fram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/OptimizeCounter.java">
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/StringBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34038">
-          <caret line="1962" selection-start-line="1962" selection-end-line="1962" />
+        <state relative-caret-position="6282">
+          <caret line="349" selection-start-line="349" selection-end-line="349" />
         </state>
       </provider>
     </entry>
@@ -430,36 +640,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/StringBuffer.java">
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5580">
-          <caret line="349" selection-start-line="349" selection-end-line="349" />
+        <state relative-caret-position="35316">
+          <caret line="1962" selection-start-line="1962" selection-end-line="1962" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java">
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/Fram.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="239" column="13" lean-forward="true" selection-start-line="239" selection-start-column="13" selection-end-line="239" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java">
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/OptimizeCounter.java" />
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/OptimizeCounter.java" />
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="57" />
+        <state>
+          <caret line="1962" selection-start-line="1962" selection-end-line="1962" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="538" selection-start-line="538" selection-end-line="538" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="349" selection-start-line="349" selection-end-line="349" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/WindowsFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#413#419#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/Fram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/Fram.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/window.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/view/window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/io/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/nio/file/SimpleFileVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/nio/file/FileVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="134" column="20" selection-start-line="134" selection-start-column="20" selection-end-line="134" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_144/src.zip!/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="2669" selection-start-line="2669" selection-end-line="2669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/FileFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#456#462#0" expanded="true" />
+            <element signature="e#498#504#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/UI/NewJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12238#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#633#663#0" expanded="true" />
+            <element signature="e#668#757#0" expanded="true" />
+            <element signature="e#9960#10047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/out/artifacts/wordcount_jar/cc/com/TCheung/controller/controller/WordCounter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="218" lean-forward="true" selection-start-line="218" selection-end-line="218" />
+          <folding>
+            <element signature="e#0#7339#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/Backup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" selection-end-line="270" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/Main/MainWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4581#4582#0" expanded="true" />
+            <element signature="e#4653#4654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" lean-forward="true" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="113" column="9" lean-forward="true" selection-start-line="113" selection-start-column="9" selection-end-line="113" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,10 +854,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>wordcount:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -528,6 +914,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>SwingSets3(BeautyEyeLNFDemo)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

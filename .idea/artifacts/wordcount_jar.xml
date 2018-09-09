@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="wordcount:jar">
+    <output-path>$PROJECT_DIR$/../wordcount/out/artifacts/wordcount_jar</output-path>
+    <root id="archive" name="wordcount.jar">
+      <element id="module-output" name="wordcount" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../wordcount/SwingSets3(BeautyEyeLNFDemo).jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
