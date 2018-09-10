@@ -81,6 +81,7 @@ public class WordCounter {
 
     public static List<String> filepath = new LinkedList<>();
 
+
     public static List<String> ScanFileInRecursion(File file)
     {
 
