@@ -6,16 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="Feat(NewJFrame): Add GUI when p program arguments sets -x&#10;&#10;- A GUI that program arguments is -x, to show text and the functions in WordCount.java can be seen on it.&#10;&#10;Feat(MainWork): Add MainWork.java to handle the program arguments sent by args.&#10;&#10;Fix(FileFinder): Fix the bug that the paths stored in the collection to be the absolute path of the files.">
-      <change afterPath="$PROJECT_DIR$/../wordcount/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/.idea/artifacts/wordcount_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/.idea/artifacts/wordcount_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/FileFinder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/WordCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/Backup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/test/Backup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java" afterDir="false" />
-    </list>
+    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="create project" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +23,8 @@
       <file leaf-file-name="WordCounter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="170">
+              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -370,7 +361,7 @@
       <workItem from="1536327880476" duration="4806000" />
       <workItem from="1536373000468" duration="28355000" />
       <workItem from="1536454341508" duration="31138000" />
-      <workItem from="1536582279183" duration="4678000" />
+      <workItem from="1536582279183" duration="4959000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1536379973880</created>
@@ -435,11 +426,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536496345670</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test: testing for the arg of -c,-w,-l">
+      <created>1536587682283</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1536587682283</updated>
+    </task>
+    <task id="LOCAL-00011" summary="create project">
+      <created>1536587800500</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1536587800500</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68977000" />
+    <option name="totallyTimeSpent" value="69258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
@@ -554,7 +559,8 @@
     <MESSAGE value="Feat(FileFinder): Add class FileFinder&#10;&#10;- Use Files.walkFileTree in java.nio.file to search files with  regex&#10;&#10;Feat(getRelateFiles): Add function that get files that with wildcard" />
     <MESSAGE value="Feat(NewJFrame): Add GUI when p program arguments sets -x&#10;&#10;- A GUI that program arguments is -x, to show text and the functions in WordCount.java can be seen on it.&#10;&#10;Feat(MainWork): Add MainWork.java to handle the program arguments sent by args.&#10;&#10;Fix(FileFinder): Fix the bug that the paths stored in the collection to be the absolute path of the files." />
     <MESSAGE value="Test: testing for the arg of -c,-w,-l" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test: testing for the arg of -c,-w,-l" />
+    <MESSAGE value="create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -821,8 +827,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="170">
+          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
