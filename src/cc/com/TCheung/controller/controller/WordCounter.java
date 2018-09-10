@@ -245,11 +245,7 @@ public class WordCounter {
 
             Collection<Path> Absolutematched = finder.getMatchedAbPaths();
 
-//            for(Path path: Absolutematched)
-//            {
-//               // realpaths.add(path.toRealPath());
-//                System.out.println(path);
-//            }
+
 
             return (List<Path>) Absolutematched;
 }
