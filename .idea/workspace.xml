@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="create project" />
+    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="create project">
+      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+              <caret line="82" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,6 +125,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../wordcount" />
   </component>
   <component name="IdeDocumentHistory">
@@ -145,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/cc/com/TCheung/controller/Main/MainWork.java" />
         <option value="$PROJECT_DIR$/src/cc/com/TCheung/controller/controller/Backup.java" />
         <option value="$PROJECT_DIR$/src/cc/com/TCheung/controller/controller/WordCounter.java" />
+        <option value="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java" />
       </list>
     </option>
   </component>
@@ -236,7 +240,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -361,7 +365,7 @@
       <workItem from="1536327880476" duration="4806000" />
       <workItem from="1536373000468" duration="28355000" />
       <workItem from="1536454341508" duration="31138000" />
-      <workItem from="1536582279183" duration="4959000" />
+      <workItem from="1536582279183" duration="6019000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1536379973880</created>
@@ -440,15 +444,21 @@
       <option name="project" value="LOCAL" />
       <updated>1536587800500</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="create project">
+      <created>1536587978791</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1536587978791</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69258000" />
+    <option name="totallyTimeSpent" value="70318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -828,7 +838,7 @@
     <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/controller/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="25" column="45" lean-forward="true" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
