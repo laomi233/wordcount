@@ -5,6 +5,7 @@
  */
 package cc.com.TCheung.controller.UI;
 
+
 import javax.swing.*;
 import java.io.BufferedReader;
 import java.io.File;
@@ -17,11 +18,10 @@ import static cc.com.TCheung.controller.controller.WordCounter.*;
  *
  * @author 45418
  */
+
 public class NewJFrame extends javax.swing.JFrame {
 
-    /**
-     * Creates new form NewJFrame1
-     */
+
     public NewJFrame() {
         initComponents();
     }
@@ -61,7 +61,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("  Word_Count");
 
-        jButton1.setIcon(new javax.swing.ImageIcon("F:\\wordcount\\JavaApplication1\\未标题-1.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("F:\\wordcount\\src\\未标题-1.jpg")); // NOI18N
         jButton1.setText("jButton1");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -283,3 +283,5 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea1;
     // End of variables declaration
 }
+
+
