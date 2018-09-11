@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/UI/NewJFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/UI/NewJFrame.java" afterDir="false" />
-    </list>
+    <list default="true" id="e23720de-28e3-45ba-bbe1-5956f70ca096" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,14 +53,13 @@
       <file leaf-file-name="NewJFrame.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/UI/NewJFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="203" column="44" lean-forward="true" selection-start-line="203" selection-start-column="44" selection-end-line="203" selection-end-column="44" />
+            <state relative-caret-position="211">
+              <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#532#533#0" expanded="true" />
                 <element signature="e#564#565#0" expanded="true" />
                 <element signature="e#787#817#0" expanded="true" />
-                <element signature="e#822#885#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -365,7 +361,7 @@
       <workItem from="1536373000468" duration="28355000" />
       <workItem from="1536454341508" duration="31138000" />
       <workItem from="1536582279183" duration="6793000" />
-      <workItem from="1536646162412" duration="8079000" />
+      <workItem from="1536646162412" duration="8341000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1536379973880</created>
@@ -472,11 +468,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536589196972</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Add icons and create project">
+      <created>1536654606275</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1536654606275</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79171000" />
+    <option name="totallyTimeSpent" value="79433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1431" height="772" extended-state="6" />
@@ -492,11 +495,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3291536" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964714" visible="true" weight="0.30877742" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964714" visible="true" weight="0.30877742" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24763292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24763292" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -592,7 +595,8 @@
     <MESSAGE value="Feat(NewJFrame): Add GUI when p program arguments sets -x&#10;&#10;- A GUI that program arguments is -x, to show text and the functions in WordCount.java can be seen on it.&#10;&#10;Feat(MainWork): Add MainWork.java to handle the program arguments sent by args.&#10;&#10;Fix(FileFinder): Fix the bug that the paths stored in the collection to be the absolute path of the files." />
     <MESSAGE value="Test: testing for the arg of -c,-w,-l" />
     <MESSAGE value="create project" />
-    <option name="LAST_COMMIT_MESSAGE" value="create project" />
+    <MESSAGE value="Add icons and create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add icons and create project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -643,7 +647,6 @@
             <element signature="e#532#533#0" expanded="true" />
             <element signature="e#564#565#0" expanded="true" />
             <element signature="e#787#817#0" expanded="true" />
-            <element signature="e#822#885#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -710,7 +713,6 @@
             <element signature="e#532#533#0" expanded="true" />
             <element signature="e#564#565#0" expanded="true" />
             <element signature="e#787#817#0" expanded="true" />
-            <element signature="e#822#885#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -924,14 +926,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../wordcount/src/cc/com/TCheung/controller/UI/NewJFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="203" column="44" lean-forward="true" selection-start-line="203" selection-start-column="44" selection-end-line="203" selection-end-column="44" />
+        <state relative-caret-position="211">
+          <caret line="71" column="17" lean-forward="true" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
             <element signature="e#564#565#0" expanded="true" />
             <element signature="e#787#817#0" expanded="true" />
-            <element signature="e#822#885#0" expanded="true" />
           </folding>
         </state>
       </provider>
